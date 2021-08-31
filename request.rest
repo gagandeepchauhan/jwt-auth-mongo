@@ -1,0 +1,20 @@
+GET http://localhost:3000/
+Authorization: Bearer yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJkYmIwMjhjNGNhNjYyODkxYjFjYjAiLCJpYXQiOjE2MzAzODY5NDYsImV4cCI6MTYzMDM4ODc0Nn0._IyHyoBe6rQt6oLHNhYnMqr_3Fon0WTob9Xv1_E5SGY
+
+###
+POST http://localhost:3000/signup
+Content-Type:application/json
+
+{
+    "email": "gagan@gmail.com",
+    "password": "123456789"
+}
+
+###
+POST http://localhost:3000/signin
+Content-Type:application/json
+
+{
+    "email": "786@gmail.com",
+    "password": "123456789"
+}
