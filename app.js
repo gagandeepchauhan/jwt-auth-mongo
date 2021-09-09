@@ -5,7 +5,7 @@ const mongoose  = require('mongoose')
 
 // Configuring .env
 process.env.NODE_ENV === 'development' && require('dotenv').config()
-const PORT      = process.env.PORT
+const PORT      = process.env.PORT || 3001
 
 // Database configuration
 mongoose.connect(process.env.DB_URL,{
